@@ -8,10 +8,34 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body id="topo">
+    <div class="background">
+    </div>
     <header>
         <div class="header">
-            <img src="../img/reciclar.png">
-            <h1 class="cor-5">reciclagem</h1>
+            <div class="logo">
+                <img src="../img/reciclar.png">
+                <h1 class="cor-5">reciclagem</h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" aria-expanded="false">Cidades ▾</a>
+                            <ul class="dropdown-menu" id="cities-menu">
+                                <li><a href="../cidades/vilavelha.html">Vila Velha</a></li>
+                                <li><a href="../cidades/vitoria.html">Vitoria</a></li>
+                                <li><a href="../cidades/cariacica.html">Cariacica</a></li>
+                                <li><a href="../cidades/serra.html">Serra</a></li>
+                                <li><a href="../cidades/guarapari.html">Guarapari</a></li>
+                                <li><a href="../cidades/viana.html">Viana</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../index.html#about">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </div>
     </header>
 
@@ -73,4 +97,5 @@
     </main>
     
 </body>
+<script src="../script.js"></script>
 </html>

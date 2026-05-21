@@ -10,8 +10,7 @@ html {
 
 main {
   padding: var(--espacamento-md);
-  max-width: 1200px;
-  margin-left: 200px;
+  min-width: 769px;
 }
 
 .background {
@@ -27,9 +26,36 @@ main {
   z-index: -1;
 }
 
-.apresentação {
-  font-size: 48px;
+.apresentacao {
+  margin-left: 80px;
+  margin-top: 40px;
+  font-size: 50px;
+  color: var(--cor-2);
+  font-weight: bold;
+}
+
+.subap {
+  margin-left: 80px;
+  font-size: 24px;
+  color: var(--cor-5);
+  font-weight: 500;
+  margin-top: var(--espacamento-sm);
+}
+
+.link-panel {
+  background: #ffffffa9;
   color: var(--cor-0);
+  padding: var(--espacamento-md);
+  margin: 100px auto 20px 80px;
+  border-radius: 20px;
+  width: fit-content;
+  transition: 0.3s;
+  
+}
+.titulo2 {
+  margin-left: 20px;
+  font-size: 20px;
+  color: var(--cor-5);
   font-weight: bold;
 }
 
@@ -61,6 +87,16 @@ main {
 .cidades a:focus {
   outline: 2px solid var(--cor-1);
   outline-offset: 2px;
+}
+
+.about {
+  margin: 300px auto 20px 80px;
+  padding: var(--espacamento-md);
+  width: 1400px;
+  background: var(--cor-3);
+  color: var(--cor-0);
+  opacity: 0.9;
+  border-radius: 8px;
 }
 
 .btn-voltar {

@@ -40,8 +40,8 @@ header {
     margin-right: 50px;
 }
 
-.menu ul {
-  font-size: 24px;
+.menu > nav > ul {
+    font-size: 24px;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -60,4 +60,52 @@ header {
 .menu a:focus {
     outline: 2px solid var(--cor-5);
     outline-offset: 2px;
+}
+
+/* Dropdown styles for header 'Cidades' */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: var(--cor-5);
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dropdown-toggle:focus {
+    outline: 2px solid var(--cor-5);
+    outline-offset: 2px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 160px;
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+    background: var(--cor-0);
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    z-index: 50;
+}
+
+.dropdown-menu li {
+    padding: 6px 16px;
+}
+
+.dropdown-menu li a {
+    color: var(--cor-5);
+    text-decoration: none;
+}
+
+.dropdown.open .dropdown-menu {
+    display: block;
 }

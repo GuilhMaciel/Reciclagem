@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,36 @@
 
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body id="topo">
+    <div class="background">
+    </div>
     <header>
         <div class="header">
-            <img src="../img/reciclar.png">
-            <h1 class="cor-5">reciclagem</h1>
+            <div class="logo">
+                <img src="../img/reciclar.png">
+                <h1 class="cor-5">reciclagem</h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" aria-expanded="false">Cidades ▾</a>
+                            <ul class="dropdown-menu" id="cities-menu">
+                                <li><a href="../cidades/vilavelha.html">Vila Velha</a></li>
+                                <li><a href="../cidades/vitoria.html">Vitoria</a></li>
+                                <li><a href="../cidades/cariacica.html">Cariacica</a></li>
+                                <li><a href="../cidades/serra.html">Serra</a></li>
+                                <li><a href="../cidades/guarapari.html">Guarapari</a></li>
+                                <li><a href="../cidades/viana.html">Viana</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../index.html#about">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </div>
     </header>
 
@@ -20,7 +46,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.1993317463202!2d-40.3108723!3d-20.3746696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83e1fa59736c3%3A0x439a5d2402bba59c!2sR.%20Jorge%20Rizk%2C%2027%20-%20Praia%20das%20Gaivotas%2C%20Vila%20Velha%20-%20ES%2C%2029102-573!5e0!3m2!1spt-BR!2sbr!4v1775525336201!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.1993317463202!2d-40.3108723!3d-20.3746696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83e1fa59736c3%3A0x439a5d2402bba59c!2sR.%20Jorge%20Rizk%2C%2027%20-%20Praia%20das%20Gaivotas%2C%20Vila%20Velha%20-%20ES%2C%2029102-573!5e0!3m2!1spt-BR!2sbr!4v1775525336201!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -33,7 +62,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.24028190548!2d-40.2748968!3d-20.33169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81653c5d62029%3A0xa67c8fbba7d65492!2sAv.%20Ant%C3%B4nio%20Gil%20Veloso%2C%209%20-%20Praia%20da%20Costa%2C%20Vila%20Velha%20-%20ES%2C%2029101-011!5e0!3m2!1spt-BR!2sbr!4v1775525439693!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.24028190548!2d-40.2748968!3d-20.33169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81653c5d62029%3A0xa67c8fbba7d65492!2sAv.%20Ant%C3%B4nio%20Gil%20Veloso%2C%209%20-%20Praia%20da%20Costa%2C%20Vila%20Velha%20-%20ES%2C%2029101-011!5e0!3m2!1spt-BR!2sbr!4v1775525439693!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -43,10 +75,13 @@
                 <p><strong>Ponto de entrega voluntário subterrâneo para materiais recicláveis e vidros.</strong></p>
             </div>
         </div>
-        
+
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.3035690315579!2d-40.27887077170042!3d-20.332764807405354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81734ea037f6f%3A0x90a4aa2f67d62e36!2sMundo%20das%20Delicias%20Goumert!5e0!3m2!1spt-BR!2sbr!4v1775525561383!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.3035690315579!2d-40.27887077170042!3d-20.332764807405354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81734ea037f6f%3A0x90a4aa2f67d62e36!2sMundo%20das%20Delicias%20Goumert!5e0!3m2!1spt-BR!2sbr!4v1775525561383!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -59,7 +94,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.1221694074065!2d-40.2816654!3d-20.3365711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8164f76e55555%3A0x801ba38f9232e34c!2sLoft%20Despojado!5e0!3m2!1spt-BR!2sbr!4v1775525680698!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.1221694074065!2d-40.2816654!3d-20.3365711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8164f76e55555%3A0x801ba38f9232e34c!2sLoft%20Despojado!5e0!3m2!1spt-BR!2sbr!4v1775525680698!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -72,7 +110,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.82088821071702!2d-40.2920657000456!3d-20.336073506898867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb816391374334d%3A0xfe6570a755ac4aec!2sPastore%20Material%20El%C3%A9trico%20Vila%20Velha!5e0!3m2!1spt-BR!2sbr!4v1775525926828!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.82088821071702!2d-40.2920657000456!3d-20.336073506898867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb816391374334d%3A0xfe6570a755ac4aec!2sPastore%20Material%20El%C3%A9trico%20Vila%20Velha!5e0!3m2!1spt-BR!2sbr!4v1775525926828!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -85,7 +126,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.2497735731545!2d-40.2923532!3d-20.3312977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb816373fb6a307%3A0x18af77fd0aa146ed!2sAv.%20Luciano%20das%20Neves%2C%20226%20-%20Centro%20de%20Vila%20Velha%2C%20Vila%20Velha%20-%20ES%2C%2029100-206!5e0!3m2!1spt-BR!2sbr!4v1775525962686!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.2497735731545!2d-40.2923532!3d-20.3312977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb816373fb6a307%3A0x18af77fd0aa146ed!2sAv.%20Luciano%20das%20Neves%2C%20226%20-%20Centro%20de%20Vila%20Velha%2C%20Vila%20Velha%20-%20ES%2C%2029100-206!5e0!3m2!1spt-BR!2sbr!4v1775525962686!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -98,7 +142,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.81655290459204!2d-40.3066179631219!3d-20.338939614935438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8161f77ed7451%3A0xdb9a02f03b636460!2sRei%20Do%20Pastel%20Zinho!5e0!3m2!1spt-BR!2sbr!4v1775526037868!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.81655290459204!2d-40.3066179631219!3d-20.338939614935438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8161f77ed7451%3A0xdb9a02f03b636460!2sRei%20Do%20Pastel%20Zinho!5e0!3m2!1spt-BR!2sbr!4v1775526037868!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -111,7 +158,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.110071331279!2d-40.306821299999996!3d-20.337071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8162048c26ac7%3A0xa2b252f2e1f6b012!2sR.%20Aurora%2C%20242%20-%20Gl%C3%B3ria%2C%20Vila%20Velha%20-%20ES%2C%2029122-280!5e0!3m2!1spt-BR!2sbr!4v1775526089950!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.110071331279!2d-40.306821299999996!3d-20.337071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8162048c26ac7%3A0xa2b252f2e1f6b012!2sR.%20Aurora%2C%20242%20-%20Gl%C3%B3ria%2C%20Vila%20Velha%20-%20ES%2C%2029122-280!5e0!3m2!1spt-BR!2sbr!4v1775526089950!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -124,7 +174,10 @@
 
         <div class="container-endereco">
             <div class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.1263657929735!2d-40.292527299999996!3d-20.336397700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb816394194a9ab%3A0x3d61d13434f2ce48!2sR.%20Expedicion%C3%A1rio%20Aquino%20Ara%C3%BAjo%2C%2048%20-%20Centro%20de%20Vila%20Velha%2C%20Vila%20Velha%20-%20ES%2C%2029100-032!5e0!3m2!1spt-BR!2sbr!4v1775526113669!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.1263657929735!2d-40.292527299999996!3d-20.336397700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb816394194a9ab%3A0x3d61d13434f2ce48!2sR.%20Expedicion%C3%A1rio%20Aquino%20Ara%C3%BAjo%2C%2048%20-%20Centro%20de%20Vila%20Velha%2C%20Vila%20Velha%20-%20ES%2C%2029100-032!5e0!3m2!1spt-BR!2sbr!4v1775526113669!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="info">
@@ -134,12 +187,13 @@
                 <p><strong>Ponto de entrega voluntário subterrâneo para materiais recicláveis e vidros.</strong></p>
             </div>
         </div>
-        
-        
-        
-                
+
+
+
+
         <a href="#topo" class="btn-topo"><strong>^</strong></a>
     </main>
-    
+
 </body>
+<script src="../script.js"></script>
 </html>
