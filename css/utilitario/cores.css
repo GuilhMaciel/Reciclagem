@@ -5,6 +5,12 @@
     --cor-3: #3F753B;
     --cor-4: #2B332B;
     --cor-5: #000000;
+
+    /* Espaçamento */
+    --espacamento-xs: 8px;
+    --espacamento-sm: 12px;
+    --espacamento-md: 20px;
+    --espacamento-lg: 40px;
 }
 
 

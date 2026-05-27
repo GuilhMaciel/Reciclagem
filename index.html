@@ -1,32 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GV Reciclagem</title>
-
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/reciclar.png" type="image/png">
+
+    <title>GV Reciclagem</title>
+
+
 </head>
+
 <body>
+    <div class="background">
+    </div>
     <header>
         <div class="header">
-            <img src="./img/reciclar-simbolo-triangular-de-rotacao-de-tres-setas.png">
-            <h1 class="cor-5">reciclagem</h1>
+            <div class="logo">
+                <img src="./img/reciclar-simbolo-triangular-de-rotacao-de-tres-setas.png">
+                <h1 class="cor-5">reciclagem</h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" aria-expanded="false">Cidades ▾</a>
+                            <ul class="dropdown-menu" id="cities-menu">
+                                <li><a href="./cidades/vilavelha.html">Vila Velha</a></li>
+                                <li><a href="./cidades/vitoria.html">Vitoria</a></li>
+                                <li><a href="./cidades/cariacia.html">Cariacica</a></li>
+                                <li><a href="./cidades/serra.html">Serra</a></li>
+                                <li><a href="./cidades/guarapari.html">Guarapari</a></li>
+                                <li><a href="./cidades/viana.html">Viana</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#about">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </div>
     </header>
 
     <main>
-        <ul class="cidades">
-            <li><a href="./cidades/vilavelha.html">Vila Velha</a></li>
-            <li><a href="./cidades/vitoria.html"> Vitoria</a></li>
-            <li><a href="./cidades/cariacia.html">Cariacica</a></li>
-            <li><a href="./cidades/serra.html">Serra</a></li>
-            <li><a href="./cidades/guarapari.html">Guarapari</a></li>
-            <li><a href="./cidades/viana.html">Viana</a></li>
-        </ul>
+        <div>
+            <div class="apresentacao">
+                <h2>Descarte Consciente</h2>
+                <h2>na sua região</h2>
+            </div>
+            <p class="subap">Contribuindo para um ES mais bonito e verde!!!</p>
+        </div>
+        <div class="link-panel">
+            <p class="titulo2">Como Reciclar:</p>
+            <ul class="cidades">
+                <li><a href="./cidades/vilavelha.html">Vila Velha</a></li>
+                <li><a href="./cidades/vitoria.html"> Vitoria</a></li>
+                <li><a href="./cidades/cariacica.html">Cariacica</a></li>
+                <li><a href="./cidades/serra.html">Serra</a></li>
+                <li><a href="./cidades/guarapari.html">Guarapari</a></li>
+                <li><a href="./cidades/viana.html">Viana</a></li>
+            </ul>
+        </div>
+        <div class="about" id="about">
+            <p class="titulo2">Sobre o Projeto:</p>
+            <p class="texto">O projeto do site reciclagem foi desenvolvido por estudantes universitários
+                como parte de uma materia da instituição, é uma iniciativa que visa promover a conscientização
+                sobre a importância da reciclagem e incentivar a prática de descarte adequado de resíduos.
+                O objetivo é reduzir o impacto ambiental, conservar recursos naturais e promover um estilo
+                de vida mais sustentável. Através da plataforma o usuário pode localizar os locais de coleta e
+                reciclagem de resíduos, podendo consultar a empresa, sua localização, o telefone de contato e
+                até o tipo de resíduo aceito.</p>
+        </div>
 
     </main>
-    
 </body>
+<script src="./script.js"></script>
 </html>

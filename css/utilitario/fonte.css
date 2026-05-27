@@ -1,0 +1,18 @@
+:root {
+    --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --tamanho-base: 16px;
+    --tamanho-h1: 40px;
+    --tamanho-h2: 28px;
+    --tamanho-p: 16px;
+    --linha-altura: 1.6;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-base);
+    line-height: var(--linha-altura);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
