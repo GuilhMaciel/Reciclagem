@@ -10,7 +10,7 @@ html {
 
 main {
   padding: var(--espacamento-md);
-  min-width: 769px;
+  min-width: 100%;
 }
 
 .background {
@@ -92,11 +92,18 @@ main {
 .about {
   margin: 300px auto 20px 80px;
   padding: var(--espacamento-md);
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
   background: var(--cor-3);
   color: var(--cor-0);
   opacity: 0.9;
   border-radius: 8px;
+}
+
+.apresentacao h2,
+.subap,
+.texto {
+  word-wrap: break-word;
 }
 
 .btn-voltar {
@@ -174,24 +181,75 @@ main {
 
 
 @media (max-width: 768px) {
+  main{
+    width: 100%;
+  }
+
+  .logo{
+    margin-left: 0px;
+  }
+
+  .menu{
+    margin-right: 0px;
+  }
+
   .container-endereco {
     grid-template-columns: 1fr;
     margin: var(--espacamento-md) auto;
     padding: var(--espacamento-md);
+    width: 100%;
   }
 
   .mapa iframe {
     border-radius: 8px 8px 0 0;
   }
 
+  .apresentacao {
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .subap {
+    margin-left: 0;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
   .info {
     border-radius: 0 0 8px 8px;
   }
 
-  .cidades {
-    grid-template-columns: 1fr;
-    border-radius: 0px;
+  .link-panel {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 100%;
   }
+
+
+  .cidades {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .cidades li a {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .about {
+    margin: 80px auto 20px auto;
+    width: 100%;
+  }
+
+  .texto {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
 
   .mapa iframe {
     border-bottom-left-radius: 0px;
@@ -209,12 +267,26 @@ main {
 /* Media query para telas muito pequenas */
 @media (max-width: 480px) {
   .header {
+    width: 100%;
     flex-direction: column;
     padding: var(--espacamento-sm);
   }
 
+  .apresentacao {
+    font-size: 24px;
+  }
+
+  .subap {
+    font-size: 16px;
+  }
+
+  .menu{
+    margin-right: 0px;
+  }
+
   main {
     padding: var(--espacamento-sm);
+    width: 100%;
   }
 
   .cidades {
@@ -224,5 +296,6 @@ main {
 
   .container-endereco {
     margin: var(--espacamento-md) auto;
+    width: 100%;
   }
 }
