@@ -10,11 +10,7 @@ html {
 
 main {
   padding: var(--espacamento-md);
-<<<<<<< HEAD
   min-width: 100%;
-=======
-  min-width: 769px;
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
 }
 
 .background {
@@ -96,25 +92,18 @@ main {
 .about {
   margin: 300px auto 20px 80px;
   padding: var(--espacamento-md);
-<<<<<<< HEAD
   width: 100%;
   max-width: 1400px;
-=======
-  width: 1400px;
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
   background: var(--cor-3);
   color: var(--cor-0);
   opacity: 0.9;
   border-radius: 8px;
-<<<<<<< HEAD
 }
 
 .apresentacao h2,
 .subap,
 .texto {
   word-wrap: break-word;
-=======
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
 }
 
 .btn-voltar {
@@ -208,23 +197,7 @@ main {
     grid-template-columns: 1fr;
     margin: var(--espacamento-md) auto;
     padding: var(--espacamento-md);
-<<<<<<< HEAD
     width: 100%;
-=======
-  }
-
-  .mapa iframe {
-    border-radius: 8px 8px 0 0;
-  }
-
-  .info {
-    border-radius: 0 0 8px 8px;
-  }
-
-  .cidades {
-    grid-template-columns: 1fr;
-    border-radius: 0px;
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
   }
 
   .mapa iframe {
@@ -294,15 +267,11 @@ main {
 /* Media query para telas muito pequenas */
 @media (max-width: 480px) {
   .header {
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
     flex-direction: column;
     padding: var(--espacamento-sm);
   }
 
-<<<<<<< HEAD
   .apresentacao {
     font-size: 24px;
   }
@@ -318,10 +287,6 @@ main {
   main {
     padding: var(--espacamento-sm);
     width: 100%;
-=======
-  main {
-    padding: var(--espacamento-sm);
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
   }
 
   .cidades {
@@ -331,9 +296,6 @@ main {
 
   .container-endereco {
     margin: var(--espacamento-md) auto;
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 5eafee035212b46a36f1c74b425b0233240b9e33
   }
 }
